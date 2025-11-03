@@ -14,8 +14,3 @@ repos:
     rev: v0.1.3
     hooks:
     - id: dstroyer-hook
-
-  - repo: https://github.com/1greentangerine/check_commit_msg
-    rev: v0.0.4
-    hooks:
-    - id: commit-msg-hook
