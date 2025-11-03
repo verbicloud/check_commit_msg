@@ -14,8 +14,7 @@ class ColorText:
 
 
 ERROR_MESSAGE = "❌ ERROR: Commit message must start with a valid conventional commit type"
-INSTRUCTION = """
-Version Bump Triggers:
+INSTRUCTION = """Version Bump Triggers:
   - fix: Bug fixes (patch version bump)
   - feat: New features (minor version bump)
   - BREAKING CHANGE: Breaking changes (major version bump)
