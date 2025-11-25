@@ -52,7 +52,7 @@ def main():
         "BREAKING CHANGE"
     ]
 
-    if any((message.startswith(f"{prefix.lower()}:") for prefix in options)):
+    if any((message.lower().startswith(f"{prefix.lower()}:") for prefix in options)):
         # good commit
         sys.exit(0)
 
