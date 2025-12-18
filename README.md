@@ -12,3 +12,6 @@ repos:
 ```
 
 and simply run `$ pre-commit install --hook-type commit-msg`
+
+## Good to know
+There is a second [pre-commit hook](https://github.com/verbicloud/prepare_commit_msg/) that prepares the commit message with instructions
