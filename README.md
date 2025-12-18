@@ -6,7 +6,7 @@ Create `.pre-commit-config.yaml` with the following lines:
 ```
 repos:
   - repo: https://github.com/verbicloud/check_commit_msg
-    rev: v0.0.5
+    rev: v0.0.7
     hooks:
     - id: commit-msg-hook
 ```
