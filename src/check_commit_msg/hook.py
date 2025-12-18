@@ -16,7 +16,6 @@ ERROR_MESSAGE = "❌ ERROR: Commit message must start with a valid conventional 
 INSTRUCTION = """Version Bump Triggers:
   - fix: Bug fixes (patch version bump)
   - feat: New features (minor version bump)
-  - BREAKING CHANGE: Breaking changes (major version bump)
   - perf: Performance improvements (patch version bump by default)
 
 No Version Bump:
@@ -49,8 +48,7 @@ def main():
         "ci",
         "chore",
         "revert",
-        "BREAKING CHANGE"
-    ]
+ ]
 
     if any((message.lower().startswith(f"{prefix.lower()}:") for prefix in options)):
         # good commit
